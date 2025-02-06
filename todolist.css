@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+}
+*,*::before,*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+#container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app {
+  width: 80%;
+  min-height: 400px;
+  height: auto;
+  background-color: #E0F7FA;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+#inputField {
+  width: 100%;
+  height: 13%;
+  display: flex;
+  column-gap: 10px;
+}
+#inputBar {
+  height: 50px;
+  width: 80%;
+  background-color: #FFFFFF;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #004D40;
+  outline: none;
+}
+#addTask {
+  width: 19%;
+  height: 50px;
+  background-color: #0097A7;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+#taskField {
+  width: 100%;
+  height: 87%;
+}
+.taskDiv {
+  width: 90%;
+  height: 40px;
+  margin: 20px auto;
+  border: 1px solid black;
+  background-color: #B2EBF2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  justify-content: space-between;
+  color: #004D40;
+}
+.del {
+  height: 100%;
+  width: 70px;
+  border-radius: 5px;
+  background-color: #0097A7;
+  color: #FFFFFF;
+}
